@@ -25,7 +25,6 @@ def get_connection():
     return mysql.connector.connect(**DB_CONFIG, connection_timeout=5)
 
 def ensure_database_ready():
-    # Do not create the DB automatically. The configured DB must already exist.
     conn = None
     try:
         conn = get_connection()
@@ -132,7 +131,6 @@ def login():
             pass
 
 if __name__ == "__main__":
-    # Compose waits for MySQL health, but this retry also makes startup more robust.
     for attempt in range(30):
         try:
             ensure_database_ready()
