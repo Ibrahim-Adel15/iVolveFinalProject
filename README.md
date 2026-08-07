@@ -1,10 +1,25 @@
-# DevOps Training Web Application
+<p align="center">
+  <img src="frontend/public/images/nti-logo.png" height="100"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="frontend/public/images/ivolve-logo.png" height="100"/>
+</p>
 
-A simple microservices-based web application designed as a DevOps practice project.
+<h1 align="center" style="font-family: 'Poppins', sans-serif; color: #e0e0e0; font-size: 2.8rem;">
+   DevOps Project
+</h1>
 
-The application provides user registration and authentication, followed by a main DevOps Roadmap page after successful login. The project is implemented using multiple microservices, with each service responsible for a specific part of the application.
+<h3 align="center" style="font-family: 'Poppins', sans-serif; color: #b0bec5;">
+  In Collaboration with iVolve Technologies
+</h3>
 
-The application is containerized using Docker. Each microservice contains its own `Dockerfile` and can be built and deployed independently.
+<p align="center" style="max-width: 700px; font-size: 1.1rem; color: #cfd8dc;">
+  This project represents the culmination of the DevOps training at the National Telecommunication Institute (NTI),
+  in partnership with iVolve Technologies. 
+</p>
+
+---
+
+A simple microservices-based web application designed as a DevOps practice project. The application provides user registration and authentication, followed by a main DevOps Roadmap page after successful login. The project is implemented using multiple microservices, with each service responsible for a specific part of the application. The application is containerized using Docker. Each microservice contains its own `Dockerfile` and can be built and deployed independently.
 
 ---
 
